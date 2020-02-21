@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:arial ;
+	
+}
+
+.header{
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:34px;
+	font-size:30px;
+}
+.header span{
+color:#ed5e28;
+}
+.content{
+	width:330px;
+	background-color:#eee;
+	overflow:hidden;
+	padding:10px;
+	display:inline-block;
+	margin-bottom:3px;
+	margin-right:3px;
+	border-radius:3px;
+	animation-name:Shakil;
+	animation-duration:2s;
+	transition:all 1s;
+	
+}
+.content:hover{
+
+	color:#f16529;
+	transition:1s;
+	transform:scale(0.7);
+	cursor:pointer;
+	background-color:transparent;
+}
+
+@keyframes Shakil{
+	
+	from{transform:scale(0.1)}
+	
+	to{transform:scale(1)}
+	
+		
+	
+	
+	
+	
+}
+
+
+.content:hover p{
+	color:black;
+
+}
+
+
+.content p{
+font-size:13px;
+color:#423939;
+}
+
+.content h2{
+	
+	font-size:20px;
+	margin-bottom:7px;
+	
+}
+
+
+.content img{
+	width:35px;
+	
+	
+}
+
+.left-content{
+	width:35px;
+	float:left;
+	margin-top:15px;
+	
+}
+
+.right-content{
+	
+	width:270px;
+	float:right;
+}
+
+
+.all-content{
+	width:1070px;
+	margin:auto;'
+}
+
+.section{
+	background-color:#78d934;
+	padding:40px 0px;
+}
+
+
